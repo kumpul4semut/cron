@@ -29,3 +29,7 @@ tanggal=$(date +"%m-%d-%Y")
 waktu=$(date +"%T")
 echo "Active On $tanggal pukul $waktu."
 ```
+# example cron on codeigniter
+```
+0 0 * * * curl --silent https://web.com/controller/method //cron setiap hari pukul 00
+```
