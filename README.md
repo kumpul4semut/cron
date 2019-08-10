@@ -22,3 +22,10 @@ crontab -l //see cron
 ```
 0 */8 * * * /root/cek.sh >> /root/cek.log // cron tiga kali sehari
 ```
+# example sh script
+```
+#!/bin/bash
+tanggal=$(date +"%m-%d-%Y")
+waktu=$(date +"%T")
+echo "Active On $tanggal pukul $waktu."
+```
